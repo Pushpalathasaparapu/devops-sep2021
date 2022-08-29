@@ -43,12 +43,14 @@
       <url>http://35.175.218.235:8081/repository/pratima-snapshots/</url>
     </snapshotRepository> 
   </distributionManagement>
+  <build>
+ <plugins>
 <plugin>
     <groupId>org.apache.maven.plugins</groupId>
     <artifactId>maven-war-plugin</artifactId>
     <version>3.3.2</version>
 </plugin>
-  <build>
+ </plugins>
    <!-- <finalName>${artifactId}-${version}</finalName> -->
 	  <finalName>${artifactId}</finalName>
   </build>
