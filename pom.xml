@@ -45,6 +45,6 @@
   </distributionManagement>
   <build>
    <!-- <finalName>${artifactId}-${version}</finalName> -->
-	  <finalName>${artifactId}</finalName>
+	  <finalName>Pushpa</finalName>
   </build>
 </project>
