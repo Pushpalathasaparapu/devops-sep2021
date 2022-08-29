@@ -23,7 +23,7 @@
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
       <scope>test</scope>
-    </dependency>
+	  </dependency>
   <!--  <dependency>
        <groupId>wallmart</groupId>
        <artifactId>mailx</artifactId>
@@ -43,8 +43,13 @@
       <url>http://35.175.218.235:8081/repository/pratima-snapshots/</url>
     </snapshotRepository> 
   </distributionManagement>
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.2</version>
+</plugin>
   <build>
    <!-- <finalName>${artifactId}-${version}</finalName> -->
-	  <finalName>Pushpa</finalName>
+	  <finalName>${artifactId}</finalName>
   </build>
 </project>
