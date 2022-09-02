@@ -10,11 +10,11 @@
   <!--<repositories>
      <repository>
 	<id>prathima-remote-repo</id>
-	<url>http://34.229.179.142:8081/repository/prathima-remote-repo/</url>
+	<url>http://18.144.17.184:8081//repository/prathima-remote-repo/</url>
      </repository>
      <repository>
 	<id>prathima-remote-proxy</id>
-	<url>http://34.229.179.142:8081/repository/prathima-remote-proxy/</url>
+	<url>http://18.144.17.184:8081//repository/prathima-remote-proxy/</url>
      </repository>
    </repositories> -->
   <dependencies>
@@ -35,12 +35,12 @@
     <repository>
       <id>nexus-releases</id>
 	  <name>PrathimaTechnologies Releases Nexus Repository</name>
-      <url>http://35.175.218.235:8081/repository/pratima-releases/</url>
+      <url>http://18.144.17.184:8081//repository/pratima-releases/</url>
     </repository>
     <snapshotRepository>
       <id>nexus-snapshots</id>
 	  <name>PrathimaTechnologies Snapshot Nexus Repository</name>
-      <url>http://35.175.218.235:8081/repository/pratima-snapshots/</url>
+      <url>http://18.144.17.184:8081//repository/pratima-snapshots/</url>
     </snapshotRepository> 
   </distributionManagement>
   <build>
