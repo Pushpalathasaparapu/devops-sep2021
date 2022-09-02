@@ -33,14 +33,14 @@
   </dependencies>
   <distributionManagement>
     <repository>
-      <id>nexus-releases</id>
-	  <name>PrathimaTechnologies Releases Nexus Repository</name>
-      <url>http://18.144.17.184:8081//repository/pratima-releases/</url>
+      <id>releases</id>
+	  <name>Releases</name>
+      <url>http://18.144.17.184:8081//repository/Simple-app-snapshot/</url>
     </repository>
     <snapshotRepository>
-      <id>nexus-snapshots</id>
-	  <name>PrathimaTechnologies Snapshot Nexus Repository</name>
-      <url>http://18.144.17.184:8081//repository/pratima-snapshots/</url>
+      <id>snapshots</id>
+	  <name>Snapshots</name>
+      <url>http://18.144.17.184:8081//repository/Simple-app-snapshot/</url>
     </snapshotRepository> 
   </distributionManagement>
   <build>
